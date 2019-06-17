@@ -2,5 +2,10 @@ var ListElement = document.querySelector("#app ul");
 
 var imputElement = document.querySelector("#app imput");
 
-console.log(ListElement);
-console.log(imputElement);
+var ButtonElement = document.querySelector("#app button");
+
+var todos = [
+    'jogar com os amigos',
+    'estudar',
+    'fazer a janta',
+];
